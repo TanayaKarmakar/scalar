@@ -7,15 +7,21 @@ package com.scalar.arrays.assignment;
 public class MaximumContiguousSubarraySum {
     private static int maxSubArray(final int[] A) {
         int maxSum = Integer.MIN_VALUE;
-        int currentSum = A[0];
-        for(int i = 1; i < A.length; i++) {
-            if(currentSum < currentSum + A[i])
-                currentSum = 0;
-            else
-                currentSum += A[i];
-            maxSum = Integer.max(currentSum, maxSum);
-        }
+        int currentSum = 0;
+//        for(int i = 0; i < A.length; i++) {
+//            int currentSum = 0;
+//            for(int j = i; j < A.length; j++) {
+//                currentSum += A[j];
+//                maxSum = Integer.max(maxSum, currentSum);
+//            }
+//        }
 
+        for(int i = 0; i < A.length; i++) {
+            currentSum += A[i];
+            maxSum = Integer.max(maxSum, currentSum);
+            if(currentSum < 0)
+                currentSum = 0;
+        }
         return maxSum;
     }
 
