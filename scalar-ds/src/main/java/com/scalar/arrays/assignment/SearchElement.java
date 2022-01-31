@@ -1,5 +1,6 @@
 package com.scalar.arrays.assignment;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -12,6 +13,7 @@ public class SearchElement {
             return 0;
         int start = 0;
         int end = nums.length - 1;
+        Arrays.sort(nums);
         while(start <= end) {
             int mid = (start + end) >> 1;
             if(nums[mid] == b)
@@ -46,5 +48,6 @@ public class SearchElement {
             System.out.println(searchElement(arr,b));
             j++;
         }
+        scanner.close();
     }
 }
