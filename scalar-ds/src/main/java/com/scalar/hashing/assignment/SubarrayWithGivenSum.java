@@ -1,6 +1,8 @@
 package com.scalar.hashing.assignment;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author t0k02w6 on 17/02/22
@@ -8,37 +10,34 @@ import java.util.Arrays;
  */
 public class SubarrayWithGivenSum {
     private static int[] solve(int[] A, int B) {
-        int left = 0;
-        int right = 0;
+        Map<Long, Integer> map = new HashMap<>();
+        long preSum = 0;
 
-        int n = A.length;
-        int currentSum = 0;
+        int left = -1;
+        int right = -1;
 
-        while(right < n) {
-            while(right < n && currentSum < B) {
-                currentSum += A[right];
-                right++;
-            }
-
-            while(left <= right && currentSum >= B) {
-                currentSum -= A[left];
-                left++;
-            }
-
-            if(currentSum == B) {
+        for(int i = 0; i < A.length; i++) {
+            preSum += A[i];
+            if(preSum == B) {
+                left = 0;
+                right = i;
                 break;
             }
-        }
-
-        if(currentSum == B) {
-            int[] result = new int[right - left];
-            for(int i = left; i < right; i++) {
-                result[i - left] = A[i];
+            if(map.containsKey(preSum - B)) {
+                left = map.get(preSum - B) + 1;
+                right = i;
+                break;
             }
-            return result;
+            map.put(preSum, i);
+        }
+        if(left == -1)
+            return new int[]{-1};
+        int[] res = new int[right - left + 1];
+        for(int i = left; i <= right; i++) {
+            res[i - left] = A[i];
         }
 
-        return new int[] {-1};
+        return res;
     }
 
     public static void main(String[] args) {
