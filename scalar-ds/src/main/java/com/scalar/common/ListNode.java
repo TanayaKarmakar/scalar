@@ -1,5 +1,14 @@
-package com.scalar.common;/**
- * @project scalar
+package com.scalar.common;
+
+/**
  * @author t0k02w6 on 23/02/22
- */public class ListNode {
+ * @project scalar
+ */
+public class ListNode {
+    public int val;
+    public ListNode next;
+
+    public ListNode(int val) {
+        this.val = val;
+    }
 }
