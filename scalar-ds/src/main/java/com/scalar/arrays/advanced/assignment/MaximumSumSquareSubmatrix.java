@@ -1,5 +1,11 @@
-package com.scalar.arrays.advanced.assignment;/**
- * @project scalar
+package com.scalar.arrays.advanced.assignment;
+
+/**
  * @author t0k02w6 on 27/03/22
- */public class MaximumSumSquareSubmatrix {
+ * @project scalar
+ */
+public class MaximumSumSquareSubmatrix {
+    public static void main(String[] args) {
+
+    }
 }
