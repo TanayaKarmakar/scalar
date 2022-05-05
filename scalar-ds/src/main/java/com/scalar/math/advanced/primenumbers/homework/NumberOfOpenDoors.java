@@ -8,26 +8,7 @@ import java.util.Scanner;
  */
 public class NumberOfOpenDoors {
     private static int solve(int A) {
-        boolean[] isOpen = new boolean[A + 1];
-        int countOpen = 0;
-        for(int i = 1; i <= A; i++) {
-            isOpen[i] = !isOpen[i];
-            if(isOpen[i]) {
-                countOpen++;
-            } else {
-                countOpen--;
-            }
-            for(int j = 2 * i; j <= A; j += i) {
-                isOpen[j] = !isOpen[j];
-                if(isOpen[j]) {
-                    countOpen++;
-                } else {
-                    countOpen--;
-                }
-            }
-        }
-
-        return countOpen;
+        return (int)Math.sqrt(A);
     }
 
     public static void main(String[] args) {
