@@ -1,5 +1,11 @@
-package com.scalar.sorting.advanced;/**
- * @project scalar
+package com.scalar.sorting.advanced;
+
+/**
  * @author t0k02w6 on 29/04/22
- */public class LockAndKeyCompany {
+ * @project scalar
+ */
+public class LockAndKeyCompany {
+    public static void main(String[] args) {
+
+    }
 }
