@@ -10,16 +10,16 @@ import java.util.Map;
  */
 public class UniqueElements {
     private static int solve(int[] A) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i < A.length; i++) {
-            map.put(A[i], map.getOrDefault(A[i], 0) + 1);
-        }
+        Arrays.sort(A);
 
         int count = 0;
-        for(int i = 0; i < A.length; i++) {
-            int val = map.get(A[i]);
-            if(val > 1) {
-                count += (val - 1);
+        for(int i = 1; i < A.length; i++) {
+            if(A[i] == A[i - 1]) {
+                A[i]++;
+                count++;
+            } else if(A[i] < A[i - 1]) {
+                count += A[i - 1] - A[i] + 1;
+                A[i] = A[i - 1] + 1;
             }
         }
         return count;
