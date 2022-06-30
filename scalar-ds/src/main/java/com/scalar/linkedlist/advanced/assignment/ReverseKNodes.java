@@ -22,9 +22,9 @@ public class ReverseKNodes {
             count++;
         }
 
-        A.next = curr;
-        A = prev;
-        return A;
+        if(next != null)
+            A.next = reverseList(next, B);
+        return prev;
     }
 
     public static void main(String[] args) {

@@ -9,36 +9,32 @@ import com.scalar.linkedlist.ListUtil;
  */
 public class ReverseListFromToPosition {
     private static ListNode reverseBetween(ListNode A, int B, int C) {
-        if(B == C)
-           return A;
-        ListNode part1 = null;
+        if(A == null || A.next == null)
+            return A;
+
         ListNode prev = null;
         ListNode curr = A;
+        ListNode part1 = null;
         ListNode next = null;
 
-
         int count = 1;
+
         while(curr != null && count < B) {
             part1 = curr;
             curr = curr.next;
             count++;
         }
 
-        int total = (B + C);
-        prev = null;
-        ListNode temp = curr;
-        while(curr != null && count < (total - 1)) {
+
+        while(curr != null && count < C) {
             next = curr.next;
             curr.next = prev;
             prev = curr;
             curr = next;
             count++;
         }
-        if(B == 1)
-            A = prev;
-        else
-            part1.next = prev;
-        temp.next = curr;
+
+
         return A;
     }
 
@@ -46,8 +42,8 @@ public class ReverseListFromToPosition {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
-       // head.next.next.next = new ListNode(4);
-       // head.next.next.next.next = new ListNode(5);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
 
         int B = 1;
         int C = 2;

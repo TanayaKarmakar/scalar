@@ -14,8 +14,9 @@ public class PairWithGivenDifference {
 
         while(i < n && j < n) {
             int diff = nums[j] - nums[i];
-            if(diff == k && i != j) {
-                count++;
+            if(diff == k) {
+                if(i != j)
+                    count++;
                 i++;
                 j++;
             }
