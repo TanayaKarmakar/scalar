@@ -1,5 +1,11 @@
-package com.scalar.ds.trie;/**
- * @project scalar
+package com.scalar.ds.trie;
+
+/**
  * @author t0k02w6 on 25/07/22
- */public class AutoComplete {
+ * @project scalar
+ */
+public class AutoComplete {
+    public static void main(String[] args) {
+
+    }
 }
