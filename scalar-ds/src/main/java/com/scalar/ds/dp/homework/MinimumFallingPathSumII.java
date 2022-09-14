@@ -9,36 +9,37 @@ import java.util.Set;
  * @project scalar
  */
 public class MinimumFallingPathSumII {
-    private static int solve(ArrayList<ArrayList<Integer>> A) {
-        int n = A.size();
-        ArrayList<Integer> lastRow = A.get(n - 1);
-        int minValue = Integer.MAX_VALUE;
-        Set<Integer> colSet = new HashSet<>();
-        int minColIndx = -1;
-        for(int i = 0; i < lastRow.size(); i++) {
-            if(lastRow.get(i) < minValue) {
-                minValue = lastRow.get(i);
-                minColIndx = i;
-            }
-        }
-        colSet.add(minColIndx);
+    private static int solve(int[][] A) {
+        int m = A.length;
+        int n = A[0].length;
+        int[][] dp = new int[m][n];
 
-        int i = n - 2;
-        int total = minValue;
-        while(i >= 0) {
-            ArrayList<Integer> currentRow = A.get(i);
-            minValue = Integer.MAX_VALUE;
-            for(int j = 0; j < n; j++) {
-                if(currentRow.get(j) < minValue && !colSet.contains(j)) {
-                    minValue = lastRow.get(i);
-                    minColIndx = j;
-                }
-            }
-            colSet.add(minColIndx);
-            total += minValue;
-            i--;
+        for(int i = 0; i < n; i++) {
+            dp[0][i] = A[0][i];
         }
-        return total;
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                int min = findMinFromPrevRow(dp, i - 1, j, n);
+                dp[i][j] = A[i][j] + min;
+            }
+        }
+
+        int finalAns = dp[m - 1][0];
+        for(int i = 1; i < n; i++) {
+            finalAns = Integer.min(finalAns, dp[m - 1][i]);
+        }
+        return finalAns;
+    }
+
+    private static int findMinFromPrevRow(int[][] dp, int row, int colToExclude, int cols) {
+        int min = Integer.MAX_VALUE;
+        for(int i = 0; i < cols; i++) {
+            if(i != colToExclude) {
+                min = Integer.min(dp[row][i], min);
+            }
+        }
+        return min;
     }
 
     public static void main(String[] args) {

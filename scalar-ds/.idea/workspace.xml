@@ -5,37 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/assessment/JsonParser1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/FindDistanceToAllNodesFromSourceNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/PrimsAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/Batches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/CheckBiPartiteGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/ColoringACycleGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/CommutableIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/ConstructionCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/CycleInUndirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/DijkStra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/PossiblilityOfFinishing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/RottenOranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/DistanceToNearestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/KnightsOnChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/ReversingEdges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/ValidPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/dp/WaysToParty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/modulararithmetic/assignment/RearrangeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/GetKthIndexFromNthRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/assignment/GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/assignment/ImplementPowerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/assignment/MagicNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/assignment/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/recursion/homework/KthSymbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalar-ds.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/trie/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/trie/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/DistinctSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/RepeatingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/WaysToHaveFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/Dijkstra1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/FloydWarshallAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/ShortestDistanceInAMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/CycleInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/SheldonAndPairOfCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/FindFrequencyOfANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/FloorOfAGivenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/SearchInASortedRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/assignment/SearchForARange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/assignment/SortedInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/PatternSearchUsingZAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/RabinKarpPatternMatchingAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/RemoveBoringSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAStringKMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/WindowString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/homework/MakingStringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MaximumRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MaximumRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MinimumFallingPathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MinimumFallingPathSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/ZAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/ZAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/CloneGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/CloneGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/EdgeInMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/EdgeInMST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/ZAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/ZAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +74,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CloneGraph">
-    <configuration name="CloneGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.graph.homework.CloneGraph" />
+  <component name="RunManager" selected="Application.MaximumRectangle">
+    <configuration name="DistinctSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.dp.homework.DistinctSubsequences" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.ds.graph.homework.*" />
+          <option name="PATTERN" value="com.scalar.ds.dp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightsOnChessBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.graph.homework.KnightsOnChessBoard" />
+    <configuration name="FindFrequencyOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.revision.binarysearch.FindFrequencyOfANumber" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.ds.graph.homework.*" />
+          <option name="PATTERN" value="com.scalar.ds.revision.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimsAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.graph.PrimsAlgo" />
+    <configuration name="FloorOfAGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.revision.binarysearch.FloorOfAGivenNumber" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.ds.graph.*" />
+          <option name="PATTERN" value="com.scalar.ds.revision.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversingEdges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.graph.homework.ReversingEdges" />
+    <configuration name="MaximumRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.dp.homework.MaximumRectangle" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.ds.graph.homework.*" />
+          <option name="PATTERN" value="com.scalar.ds.dp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.graph.homework.ValidPath" />
+    <configuration name="SortedInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.revision.binarysearch.assignment.SortedInsertPosition" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.ds.graph.homework.*" />
+          <option name="PATTERN" value="com.scalar.ds.revision.binarysearch.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,26 +142,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CloneGraph" />
-        <item itemvalue="Application.ReversingEdges" />
-        <item itemvalue="Application.ValidPath" />
-        <item itemvalue="Application.KnightsOnChessBoard" />
-        <item itemvalue="Application.PrimsAlgo" />
+        <item itemvalue="Application.MaximumRectangle" />
+        <item itemvalue="Application.SortedInsertPosition" />
+        <item itemvalue="Application.FindFrequencyOfANumber" />
+        <item itemvalue="Application.FloorOfAGivenNumber" />
+        <item itemvalue="Application.DistinctSubsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,12 @@
       <workItem from="1661830401217" duration="694000" />
       <workItem from="1661993909224" duration="3863000" />
       <workItem from="1662013963314" duration="7421000" />
-      <workItem from="1662177184190" duration="8341000" />
+      <workItem from="1662177184190" duration="14833000" />
+      <workItem from="1662355918266" duration="15343000" />
+      <workItem from="1662943302561" duration="3943000" />
+      <workItem from="1662960838548" duration="2862000" />
+      <workItem from="1663039639172" duration="826000" />
+      <workItem from="1663117905376" duration="6047000" />
     </task>
     <servers />
   </component>
@@ -472,6 +475,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/CloneGraph.java</url>
           <line>26</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAString.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAStringKMP.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/WindowString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/RabinKarpPatternMatchingAlgo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/RepeatingSubsequence.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/DistinctSubsequences.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

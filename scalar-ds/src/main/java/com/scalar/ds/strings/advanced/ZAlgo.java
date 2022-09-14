@@ -33,6 +33,7 @@ public class ZAlgo {
                     if(i - s > 0)
                         count = z[i - s];
                     s = i;
+                    e++;
                     while(e < n && str.charAt(e) == str.charAt(e - s)) {
                         e++;
                         count++;
