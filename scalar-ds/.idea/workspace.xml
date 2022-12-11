@@ -5,36 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/DistinctSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/RepeatingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/WaysToHaveFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/Dijkstra1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/FloydWarshallAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/assignment/ShortestDistanceInAMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/CycleInDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/SheldonAndPairOfCities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/FindFrequencyOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/FloorOfAGivenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/SearchInASortedRotatedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/assignment/SearchForARange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/binarysearch/assignment/SortedInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/PatternSearchUsingZAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/RabinKarpPatternMatchingAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/RemoveBoringSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/PeriodOfAStringKMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/assignment/WindowString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/revision/strings/homework/MakingStringPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/VehicleColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/assignment/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ParkingSpotTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MaximumRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MaximumRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MinimumFallingPathSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/homework/MinimumFallingPathSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/graph/homework/EdgeInMST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/ZAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/ZAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/CloneGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/CloneGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/EdgeInMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/graph/homework/EdgeInMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/ZAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/ZAlgo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/strings/advanced/assignment/PeriodOfAString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/WaysToHaveFun.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -76,35 +61,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MaximumRectangle">
-    <configuration name="DistinctSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.dp.homework.DistinctSubsequences" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.ds.dp.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ParkingSpotTests">
     <configuration name="FindFrequencyOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scalar.ds.revision.binarysearch.FindFrequencyOfANumber" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.ds.revision.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FloorOfAGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.ds.revision.binarysearch.FloorOfAGivenNumber" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +112,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParkingSpotTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entities" />
+      <option name="MAIN_CLASS_NAME" value="entities.ParkingSpotTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingSpotTests.canParkCarInSpot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entities" />
+      <option name="MAIN_CLASS_NAME" value="entities.ParkingSpotTests" />
+      <option name="METHOD_NAME" value="canParkCarInSpot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingSpotTests" />
+        <item itemvalue="JUnit.ParkingSpotTests.canParkCarInSpot" />
         <item itemvalue="Application.MaximumRectangle" />
         <item itemvalue="Application.SortedInsertPosition" />
         <item itemvalue="Application.FindFrequencyOfANumber" />
-        <item itemvalue="Application.FloorOfAGivenNumber" />
-        <item itemvalue="Application.DistinctSubsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +209,20 @@
       <workItem from="1662943302561" duration="3943000" />
       <workItem from="1662960838548" duration="2862000" />
       <workItem from="1663039639172" duration="826000" />
-      <workItem from="1663117905376" duration="6047000" />
+      <workItem from="1663117905376" duration="6941000" />
+      <workItem from="1663255748437" duration="785000" />
+      <workItem from="1663635839761" duration="684000" />
+      <workItem from="1663641702058" duration="476000" />
+      <workItem from="1666055797830" duration="621000" />
+      <workItem from="1666063007193" duration="1385000" />
+      <workItem from="1666148794700" duration="517000" />
+      <workItem from="1667118939556" duration="502000" />
+      <workItem from="1668072981673" duration="594000" />
+      <workItem from="1668212456258" duration="1596000" />
+      <workItem from="1669281550486" duration="592000" />
+      <workItem from="1670391086429" duration="507000" />
+      <workItem from="1670392114726" duration="1060000" />
+      <workItem from="1670394615127" duration="2541000" />
     </task>
     <servers />
   </component>
