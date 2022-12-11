@@ -1,5 +1,7 @@
 package com.scalar.design.lld.parkinglot.entities;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -28,6 +30,17 @@ public class ParkingSpot {
     }
     this.vehicle = vehicle;
     return true;
+  }
+
+  public static List<ParkingSpot> createSpots(VehicleType type, int capacity) {
+    List<ParkingSpot> parkingSpots = new ArrayList<>();
+    for(int i = 0; i < capacity; i++) {
+      ParkingSpot spot = new ParkingSpot();
+      spot.setParkingSpotNumber(i);
+      spot.setType(type);
+      parkingSpots.add(spot);
+    }
+    return parkingSpots;
   }
 
   public int getParkingSpotNumber() {
