@@ -21,6 +21,8 @@ public class ParkingLotTests {
     var parkingLot = new ParkingLot.Builder(2)
         .addFloor(parkingFloorBuilder.setNumber(0).build())
         .addFloor(parkingFloorBuilder.setNumber(1).build())
+        .setParkingFees(VehicleType.CAR, 10)
+        .setParkingFees(VehicleType.MOTORBIKE, 5)
         .build();
 
 
