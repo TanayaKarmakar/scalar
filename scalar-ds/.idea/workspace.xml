@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="Parking lot LLD -- wip">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/DatabaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/DatabaseType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/assignment/LongestPalindromicSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglot/entities/ParkingTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/ParkingLotTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/ParkingLotTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/WaysToHaveFun.class" beforeDir="false" />
@@ -56,13 +56,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.ParkingLotTests">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +226,7 @@
       <workItem from="1670391086429" duration="507000" />
       <workItem from="1670392114726" duration="1060000" />
       <workItem from="1670394615127" duration="10729000" />
+      <workItem from="1670804235332" duration="1880000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
