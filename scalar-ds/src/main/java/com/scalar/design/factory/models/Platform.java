@@ -1,4 +1,4 @@
-package com.scalar.design.factory;
+package com.scalar.design.factory.models;
 
 /**
  * @author t0k02w6 on 17/12/22

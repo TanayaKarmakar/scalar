@@ -4,15 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="Parking lot LLD -- wip">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/DatabaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/builder/DatabaseType.java" afterDir="false" />
+    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="Factory Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/FactoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/GenericButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/PrimaryButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/RoundButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/DarkButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/DarkCheckboxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/DarkFormFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/LightButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/LightCheckboxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/impl/LightFormFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/interfaces/FormFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/interfaces/UIButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/interfaces/UICheckboxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/DarkButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/DarkCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/LightButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/LightCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/UIButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/abstractfactory/models/UICheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/simplefactory/SimpleButtonFactory.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/ds/dp/assignment/LongestPalindromicSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/models/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/ButtonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/ButtonFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/simplefactory/ButtonFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/models/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/PrimaryButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/models/PrimaryButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/RoundButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/factory/models/RoundButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MaximumRectangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/MinimumFallingPathSumII.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/homework/WaysToHaveFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +82,33 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.ParkingLotTests">
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.abstractfactory.AbstractFactoryTest" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.simplefactory.ButtonFactoryTest" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.factory.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -80,22 +133,6 @@
       <option name="PACKAGE_NAME" value="entities" />
       <option name="MAIN_CLASS_NAME" value="entities.ParkingFloorTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingFloorTests.canCreateAParkingFloor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.ParkingFloorTests" />
-      <option name="METHOD_NAME" value="canCreateAParkingFloor" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,28 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingSpotTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.ParkingSpotTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
+        <item itemvalue="Application.ButtonFactoryTest" />
         <item itemvalue="JUnit.ParkingLotTests" />
         <item itemvalue="JUnit.ParkingLotTests.canBuildParkingLot" />
         <item itemvalue="JUnit.ParkingFloorTests" />
-        <item itemvalue="JUnit.ParkingFloorTests.canCreateAParkingFloor" />
-        <item itemvalue="JUnit.ParkingSpotTests" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +248,7 @@
       <workItem from="1670391086429" duration="507000" />
       <workItem from="1670392114726" duration="1060000" />
       <workItem from="1670394615127" duration="10729000" />
-      <workItem from="1670804235332" duration="1880000" />
+      <workItem from="1670804235332" duration="8617000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -242,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670769073807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Builder Pattern">
+      <created>1670897510569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670897510570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Factory Pattern">
+      <created>1671283093261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671283093262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +298,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parking lot LLD -- wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parking lot LLD -- wip" />
+    <MESSAGE value="Builder Pattern" />
+    <MESSAGE value="Factory Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
