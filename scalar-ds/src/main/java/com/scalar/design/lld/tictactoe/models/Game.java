@@ -60,8 +60,10 @@ public class Game {
     return false;
   }
 
+  //use strategy pattern to abstract away winning strategy
   private boolean checkWinner(Symbol symbol) {
     return false;
+    //return checkRows() || checkColumns() || checkDiagonals();
   }
 
   public Player getNextPlayer() {

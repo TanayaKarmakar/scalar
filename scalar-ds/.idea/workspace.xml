@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="system design">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/controller/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/exceptions/InvalidMoveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/BotLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/GameStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/HumanPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/strategies/PlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/strategies/RandomPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Swipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/System.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="LLD code">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +219,7 @@
       <workItem from="1670804235332" duration="11805000" />
       <workItem from="1671686585324" duration="22426000" />
       <workItem from="1673501060110" duration="3835000" />
-      <workItem from="1673590844097" duration="7738000" />
+      <workItem from="1673590844097" duration="8148000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -302,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672296036761</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LLD code">
+      <created>1673677527001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673677527001</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +301,8 @@
     <MESSAGE value="Factory Pattern" />
     <MESSAGE value="adapter, decorartor" />
     <MESSAGE value="system design" />
-    <option name="LAST_COMMIT_MESSAGE" value="system design" />
+    <MESSAGE value="LLD code" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
