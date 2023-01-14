@@ -5,18 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="system design">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/entities/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/ConsumerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/IConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/IProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/ITopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/ProducerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/TopicImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/mediator/IQueueMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/helper/mediator/QueueMediatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/service/IQueueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/messagequeue/service/QueueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/chess/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/controller/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/exceptions/InvalidMoveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/BotLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/HumanPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/strategies/PlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/strategies/RandomPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/Swipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tinder/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +82,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.ObserverTest">
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.abstractfactory.AbstractFactoryTest" />
       <module name="scalar-ds" />
@@ -101,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.tictactoe.controller.TicTacToe" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.lld.tictactoe.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -127,36 +161,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotTests.canBuildParkingLot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.ParkingLotTests" />
-      <option name="METHOD_NAME" value="canBuildParkingLot" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.ButtonFactoryTest" />
-      <item itemvalue="JUnit.ParkingLotTests" />
-      <item itemvalue="JUnit.ParkingLotTests.canBuildParkingLot" />
       <item itemvalue="Application.ObserverTest" />
+      <item itemvalue="JUnit.ParkingLotTests" />
+      <item itemvalue="Application.TicTacToe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.ButtonFactoryTest" />
         <item itemvalue="JUnit.ParkingLotTests" />
-        <item itemvalue="JUnit.ParkingLotTests.canBuildParkingLot" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +250,8 @@
       <workItem from="1670394615127" duration="10729000" />
       <workItem from="1670804235332" duration="11805000" />
       <workItem from="1671686585324" duration="22426000" />
+      <workItem from="1673501060110" duration="3835000" />
+      <workItem from="1673590844097" duration="7738000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
