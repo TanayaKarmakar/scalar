@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="LLD code">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/tictactoe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/controllers/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/dtos/ParkingLotRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/dtos/TicketRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/ElementNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/InvalidParkingLotRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/SpotNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/generators/ParkingFloorIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/generators/ParkingSpotIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/DisplayBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/EntryGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingAttendant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/SpotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/SpotType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/TicketStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/ParkingSpotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/ParkingSpotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +85,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.scalar.design.lld.parkinglotv2.services" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.TicTacToe">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -219,7 +260,7 @@
       <workItem from="1670804235332" duration="11805000" />
       <workItem from="1671686585324" duration="22426000" />
       <workItem from="1673501060110" duration="3835000" />
-      <workItem from="1673590844097" duration="8148000" />
+      <workItem from="1673590844097" duration="19631000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -277,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673677527001</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LLD code">
+      <created>1673679375906</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673679375906</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
