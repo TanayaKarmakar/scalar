@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="LLD code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/controllers/ParkingLotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/controllers/TicketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/dtos/ParkingLotRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/dtos/TicketRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/ElementNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/InvalidParkingLotRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/exceptions/SpotNotAvailableException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/generators/ParkingFloorIDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/generators/ParkingSpotIDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/DisplayBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/EntryGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ExitGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingAttendant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/SpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/SpotType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/TicketStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/models/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/ParkingSpotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/repositories/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/ParkingLotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/ParkingSpotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/parkinglotv2/services/VehicleService.java" afterDir="false" />
+    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="ParkingLot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,17 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParkingLotTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scalar-ds" />
       <extension name="coverage">
@@ -174,8 +127,8 @@
       <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.ButtonFactoryTest" />
       <item itemvalue="Application.ObserverTest" />
-      <item itemvalue="JUnit.ParkingLotTests" />
       <item itemvalue="Application.TicTacToe" />
+      <item itemvalue="JUnit.ParkingLotTests" />
     </list>
     <recent_temporary>
       <list>
@@ -260,7 +213,19 @@
       <workItem from="1670804235332" duration="11805000" />
       <workItem from="1671686585324" duration="22426000" />
       <workItem from="1673501060110" duration="3835000" />
-      <workItem from="1673590844097" duration="19631000" />
+      <workItem from="1673590844097" duration="21585000" />
+      <workItem from="1674521480313" duration="572000" />
+      <workItem from="1675001301073" duration="339000" />
+      <workItem from="1675128885983" duration="228000" />
+      <workItem from="1675319541322" duration="560000" />
+      <workItem from="1675328337425" duration="475000" />
+      <workItem from="1675333929242" duration="592000" />
+      <workItem from="1675336007840" duration="26000" />
+      <workItem from="1675336272187" duration="533000" />
+      <workItem from="1675400910935" duration="598000" />
+      <workItem from="1675418778949" duration="417000" />
+      <workItem from="1675658963016" duration="432000" />
+      <workItem from="1675853799221" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -325,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673679375906</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ParkingLot">
+      <created>1674175645920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674175645922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +322,8 @@
     <MESSAGE value="adapter, decorartor" />
     <MESSAGE value="system design" />
     <MESSAGE value="LLD code" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD code" />
+    <MESSAGE value="ParkingLot" />
+    <option name="LAST_COMMIT_MESSAGE" value="ParkingLot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
