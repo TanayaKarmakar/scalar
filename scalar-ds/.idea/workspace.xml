@@ -5,214 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="ParkingLot">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/decorator/package-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/hld/bloomfilter/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/hld/ratelimiter/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/external/RazorPayAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/external/RazorPayStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/external/StripeAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/external/StripeStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/impl/RazorPayProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/impl/StripeProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/interfaces/PaymentProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/models/PaymentRequest$PaymentRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/models/PaymentRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/adapter/models/PaymentStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/builder/Database$DatabaseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/builder/Database.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/builder/DatabaseTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/builder/DatabaseType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/decorator/impl/BaseDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/decorator/impl/CompressionDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/decorator/impl/EncryptionDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/decorator/impl/SimpleDatabase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/decorator/interfaces/Database.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/AbstractFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/FactoryFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/GenericButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/PrimaryButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/RoundButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/DarkButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/DarkCheckboxFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/DarkFormFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/LightButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/LightCheckboxFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/impl/LightFormFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/interfaces/FormFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/interfaces/UIButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/interfaces/UICheckboxFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/DarkButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/DarkCheckbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/LightButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/LightCheckbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/UIButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/abstractfactory/models/UICheckbox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/models/Button.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/models/Platform.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/models/PrimaryButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/models/RoundButton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/simplefactory/ButtonFactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/simplefactory/SimpleButtonFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/factory/simplefactory/SimpleButtonFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/Zerodha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/enums/ExchangeValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/enums/OrderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/models/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/services/ExchangeConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/services/OrderExecutioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/services/OrderValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/zerodha/services/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/hld/bloomfilter/BloomFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/hld/lru/Solution$Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/hld/lru/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/hld/ratelimiter/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Bishop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Color.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/King.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Knight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Pawn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Piece.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Position.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Queen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/chess/Rook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/Destination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/LeastConnectionLoadBalancer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/LoadBalancer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/LoadBalancerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/Request.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/RequestType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/RoundRobinLoadBalancer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/loadbalancer/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/logger/LogClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/logger/LoggerMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/logger/entities/Process.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/logger/impl/LogImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/logger/impl/LogImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/QueueDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/entities/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/ConsumerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/IConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/IProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/ITopic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/ProducerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/TopicImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/mediator/IQueueMediator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/helper/mediator/QueueMediatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/service/IQueueService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/messagequeue/service/QueueServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingFloor$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingFloor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingLot$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingLot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingSpot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/ParkingTicket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/VehicleColor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglot/entities/VehicleType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/controllers/ParkingLotController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/controllers/TicketController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/dtos/ParkingLotRequest$ParkingLotRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/dtos/ParkingLotRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/dtos/TicketRequest$TicketRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/dtos/TicketRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/exceptions/ElementNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/exceptions/InvalidParkingLotRequestException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/exceptions/SpotNotAvailableException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/generators/ParkingFloorIDGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/generators/ParkingSpotIDGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/BaseModel$BaseModelBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/BaseModel$BaseModelBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/BaseModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/DisplayBoard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/EntryGate$EntryGateBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/EntryGate$EntryGateBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/EntryGate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ExitGate$ExitGateBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ExitGate$ExitGateBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ExitGate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Gate$GateBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Gate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Invoice$InvoiceBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Invoice$InvoiceBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Invoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingAttendant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingFloor$ParkingFloorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingFloor$ParkingFloorBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingFloor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingLot$ParkingLotBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingLot$ParkingLotBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingLot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingSpot$ParkingSpotBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingSpot$ParkingSpotBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/ParkingSpot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Payment$PaymentBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Payment$PaymentBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/PaymentCounter$PaymentCounterBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/PaymentCounter$PaymentCounterBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/PaymentCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/PaymentStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/PaymentType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/SpotStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/SpotType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Ticket$TicketBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Ticket$TicketBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/TicketStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Vehicle$VehicleBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Vehicle$VehicleBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/VehicleType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/models/VehicleType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/repositories/ParkingLotRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/repositories/ParkingSpotRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/repositories/TicketRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/services/ParkingLotService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/services/ParkingSpotService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/services/TicketService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/parkinglotv2/services/VehicleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/ratelimiter/RateLimiter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/ratelimiter/SlidingWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/ratelimiter/UserSlidingWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/controller/TicTacToe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/exceptions/InvalidMoveException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Bot$BotBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Bot$BotBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Bot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/BotLevel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Cell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Game$GameBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/GameStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/HumanPlayer$HumanPlayerBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/HumanPlayer$HumanPlayerBuilderImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/HumanPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Move.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Player$PlayerBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/Symbol.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/strategies/PlayingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tictactoe/strategies/RandomPlayingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tinder/Chat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tinder/Match.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tinder/Swipe.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tinder/System.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/lld/tinder/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/impl/BitCoinTracker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/impl/EmailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/interfaces/Observer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/interfaces/Publisher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/models/Bitcoin$BitcoinBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/models/Bitcoin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/observer/test/ObserverTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/strategy/Navigator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/strategy/impl/BikeNavigationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/strategy/impl/CarNavigationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/design/strategy/interfaces/NavigationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scalar/ds/dp/assignment/LongestPalindromicSubsequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scalar-ds-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/entities/ParkingFloorTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/entities/ParkingLotTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/entities/ParkingSpotTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -263,26 +70,13 @@
       <recent name="com.scalar.design.lld.parkinglotv2.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Zerodha">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.abstractfactory.AbstractFactoryTest" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.scalar.design.factory.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.simplefactory.ButtonFactoryTest" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.design.factory.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,33 +123,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Zerodha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.zerodha.Zerodha" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.lld.zerodha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.AbstractFactoryTest" />
-      <item itemvalue="Application.ButtonFactoryTest" />
       <item itemvalue="Application.ObserverTest" />
       <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Zerodha" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zerodha" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.ButtonFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +251,8 @@
       <workItem from="1675658963016" duration="432000" />
       <workItem from="1675853799221" duration="732000" />
       <workItem from="1679374571194" duration="242000" />
-      <workItem from="1680159007213" duration="1362000" />
+      <workItem from="1680159007213" duration="2776000" />
+      <workItem from="1681221862786" duration="3992000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -518,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674175645922</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ParkingLot">
+      <created>1680570266863</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680570266864</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
