@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="Zerodha">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/AppConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/Cab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/Quad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/QuadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/quadtree/SubQuad.java" afterDir="false" />
+    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="QuadTree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/RideSharingAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/enums/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/enums/TripStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/TripMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/RiderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/TripManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/DriverMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/StrategyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/DefaultMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/DefaultPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/LeastTimeBasedMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/RatingBasedPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/util/AttributesUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +74,13 @@
       <recent name="com.scalar.design.lld.parkinglotv2.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zerodha">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.factory.abstractfactory.AbstractFactoryTest" />
+  <component name="RunManager" selected="Application.RideSharingAppTest">
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.observer.test.ObserverTest" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.design.factory.abstractfactory.*" />
+          <option name="PATTERN" value="com.scalar.design.observer.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.observer.test.ObserverTest" />
+    <configuration name="RideSharingAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.ridesharingapp.RideSharingAppTest" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.design.observer.test.*" />
+          <option name="PATTERN" value="com.scalar.design.lld.ridesharingapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.ObserverTest" />
       <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Zerodha" />
+      <item itemvalue="Application.RideSharingAppTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RideSharingAppTest" />
         <item itemvalue="Application.Zerodha" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.AbstractFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +256,7 @@
       <workItem from="1675853799221" duration="732000" />
       <workItem from="1679374571194" duration="242000" />
       <workItem from="1680159007213" duration="2776000" />
-      <workItem from="1681221862786" duration="12836000" />
+      <workItem from="1681221862786" duration="20516000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -329,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681541459425</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="QuadTree">
+      <created>1681875367782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681875367782</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +376,8 @@
     <MESSAGE value="LLD code" />
     <MESSAGE value="ParkingLot" />
     <MESSAGE value="Zerodha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zerodha" />
+    <MESSAGE value="QuadTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuadTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
