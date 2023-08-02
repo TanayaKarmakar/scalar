@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="QuadTree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/RideSharingAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/enums/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/enums/TripStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Rider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/Trip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/models/TripMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/RiderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/TripManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/DriverMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/StrategyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/DefaultMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/DefaultPricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/LeastTimeBasedMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/services/strategies/impl/RatingBasedPricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/ridesharingapp/util/AttributesUtil.java" afterDir="false" />
+    <list default="true" id="3722388a-dc55-43f0-8297-fa050aea9c54" name="Default Changelist" comment="Scalar code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/BloomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/BloomFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/HashUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalar-ds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scalar-ds.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,6 +38,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/HashUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/BloomFilterTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/scalar/design/lld/bloomfilter/BloomFilter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="22OSL8kIMj0ybDsi91aK6JwtF8u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,72 +60,72 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.scalar.design.lld.parkinglotv2.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RideSharingAppTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.revision.adapter.AdapterTest" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.revision.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomFilterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.bloomfilter.BloomFilterTest" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.lld.bloomfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.revision.builder.BuilderTest" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.design.revision.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scalar.fundamentals.multithreading.problem1.Main" />
+      <module name="scalar-ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scalar.fundamentals.multithreading.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.observer.test.ObserverTest" />
+      <option name="MAIN_CLASS_NAME" value="com.scalar.design.revision.observer.ObserverTest" />
       <module name="scalar-ds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scalar.design.observer.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RideSharingAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.ridesharingapp.RideSharingAppTest" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.design.lld.ridesharingapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.hld.ratelimiter.Solution" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.design.hld.ratelimiter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.tictactoe.controller.TicTacToe" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.design.lld.tictactoe.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zerodha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scalar.design.lld.zerodha.Zerodha" />
-      <module name="scalar-ds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scalar.design.lld.zerodha.*" />
+          <option name="PATTERN" value="com.scalar.design.revision.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,17 +146,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.ObserverTest" />
-      <item itemvalue="Application.TicTacToe" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Zerodha" />
-      <item itemvalue="Application.RideSharingAppTest" />
+      <item itemvalue="Application.BuilderTest" />
+      <item itemvalue="Application.AdapterTest" />
+      <item itemvalue="Application.BloomFilterTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RideSharingAppTest" />
-        <item itemvalue="Application.Zerodha" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BloomFilterTest" />
+        <item itemvalue="Application.AdapterTest" />
+        <item itemvalue="Application.BuilderTest" />
         <item itemvalue="Application.ObserverTest" />
       </list>
     </recent_temporary>
@@ -256,7 +249,24 @@
       <workItem from="1675853799221" duration="732000" />
       <workItem from="1679374571194" duration="242000" />
       <workItem from="1680159007213" duration="2776000" />
-      <workItem from="1681221862786" duration="20516000" />
+      <workItem from="1681221862786" duration="21029000" />
+      <workItem from="1681969892622" duration="495000" />
+      <workItem from="1682056258929" duration="1198000" />
+      <workItem from="1682340187394" duration="595000" />
+      <workItem from="1683610927301" duration="4068000" />
+      <workItem from="1683906403406" duration="962000" />
+      <workItem from="1684392466955" duration="707000" />
+      <workItem from="1684458786498" duration="7447000" />
+      <workItem from="1684751650237" duration="523000" />
+      <workItem from="1684765466472" duration="217000" />
+      <workItem from="1685602152151" duration="5414000" />
+      <workItem from="1686098629288" duration="521000" />
+      <workItem from="1686290838286" duration="288000" />
+      <workItem from="1687242155043" duration="283000" />
+      <workItem from="1687501007493" duration="1063000" />
+      <workItem from="1689158453225" duration="580000" />
+      <workItem from="1689230658084" duration="841000" />
+      <workItem from="1690882868750" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Parking lot LLD -- wip">
       <created>1670723728007</created>
@@ -349,7 +359,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681875367782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="RiderSharingApp LLD">
+      <created>1681917709661</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681917709662</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Scalar code">
+      <created>1683770181229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683770181230</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Scalar code">
+      <created>1684631033518</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684631033518</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +408,9 @@
     <MESSAGE value="ParkingLot" />
     <MESSAGE value="Zerodha" />
     <MESSAGE value="QuadTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="QuadTree" />
+    <MESSAGE value="RiderSharingApp LLD" />
+    <MESSAGE value="Scalar code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scalar code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
