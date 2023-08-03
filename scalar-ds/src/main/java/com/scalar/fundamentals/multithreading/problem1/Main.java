@@ -13,5 +13,8 @@ public class Main {
 
     Thread t2 = new Thread(hwp);
     t2.start();
+
+    t1.run();
+    t2.run();
   }
 }
