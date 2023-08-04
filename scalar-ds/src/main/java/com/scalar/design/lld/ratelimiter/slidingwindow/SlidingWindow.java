@@ -1,5 +1,6 @@
-package com.scalar.design.lld.ratelimiter;
+package com.scalar.design.lld.ratelimiter.slidingwindow;
 
+import com.scalar.design.lld.ratelimiter.RateLimiter;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
