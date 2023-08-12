@@ -4,6 +4,7 @@ import com.scalar.design.lld.battleship.model.Board;
 import com.scalar.design.lld.battleship.model.Coordinate;
 import com.scalar.design.lld.battleship.model.PlayerChanceTarget;
 import com.scalar.design.lld.battleship.strategy.IChangeGenerationStrategy;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +37,7 @@ public class Player {
     return changeGenerationStrategy;
   }
 
-  public PlayerChanceTarget takeChance(List<Player> players) {
+  public PlayerChanceTarget takeChance(List<Player> players) throws IOException {
     List<Player> opponents = new ArrayList<>();
     for(Player player: players) {
       if(player.getId() != getId()) {

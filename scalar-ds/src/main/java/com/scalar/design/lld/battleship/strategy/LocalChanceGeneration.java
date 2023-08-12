@@ -6,6 +6,7 @@ import com.scalar.design.lld.battleship.io.input.PlayerInput;
 import com.scalar.design.lld.battleship.model.Coordinate;
 import com.scalar.design.lld.battleship.model.PlayerChanceTarget;
 import com.scalar.design.lld.battleship.model.player.Player;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -20,7 +21,7 @@ public class LocalChanceGeneration implements IChangeGenerationStrategy {
   }
 
   @Override
-  public PlayerChanceTarget getPlayerChanceTarget(final List<Player> opponents) {
+  public PlayerChanceTarget getPlayerChanceTarget(final List<Player> opponents) throws IOException {
     final PlayerInput playerInput = inputProvider.takeInput();
     Player targetPlayer = null;
     for(Player player: opponents) {

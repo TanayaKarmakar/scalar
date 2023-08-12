@@ -6,6 +6,7 @@ import com.scalar.design.lld.battleship.model.PlayerChanceTarget;
 import com.scalar.design.lld.battleship.model.player.Player;
 import com.scalar.design.lld.battleship.strategy.IPlayerPickingStrategy;
 import com.scalar.design.lld.battleship.strategy.IWinnerStrategy;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -28,7 +29,7 @@ public class GameLoop {
     this.nextPlayerStrategy = nextPlayerStrategy;
   }
 
-  public void start() {
+  public void start() throws IOException {
     int currentPlayerIndex = nextPlayerStrategy.firstPlayer(this.players);
     printer.printMsg("Starting game !!!");
     while(true) {
