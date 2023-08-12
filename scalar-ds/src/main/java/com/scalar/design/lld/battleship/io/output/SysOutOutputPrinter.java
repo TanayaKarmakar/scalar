@@ -32,6 +32,12 @@ public class SysOutOutputPrinter implements IOutputPrinter {
     }
   }
 
+  @Override
+  public void printWinner(Player player) {
+    System.out.println("Game Finished!");
+    System.out.println("Player: " + player.getId() + " won");
+  }
+
   private void printOpponentBoard(Player player) {
     printMsg("\nOpponent board status: ");
     printPlayerInfo(player);
